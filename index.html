@@ -1,1 +1,851 @@
-<p>Hello</p>
+ <!DOCTYPE HTML> 
+<html>
+	<head>
+		<title>NiMechE PTI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="icon" href="nimeche_logo.png">
+		<link rel="stylesheet" href="assets/css/lightslider.css?">
+		        <link rel="stylesheet" href="assets/css/templatemo_misc.css">
+        <link rel="stylesheet" href="assets/css/templatemo_style.css">
+        		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unicus.live/css/stew.css" />
+        <style>
+@font-face{
+  font-family:'metropolis';
+  src: url('https://unicus.live/fonts/Metropolis-Light.otf') format('opentype');
+  }
+
+
+  @font-face{
+  font-family:'metropolis_bold';
+  src: url('https://unicus.live/fonts/Metropolis-Bold.otf') format('opentype');
+  }
+
+
+  @font-face{
+  font-family:'metropolis_thin';
+  src: url('.https://unicus.live/fonts/Metropolis-thin.otf') format('opentype');
+  }
+
+
+  @font-face{
+  font-family:'metropolis_regular';
+  src: url('https://unicus.live/fonts/Metropolis-Regular.otf') format('opentype');
+  }
+
+  @font-face{
+  font-family:'metropolis_black';
+  src: url('https://unicus.live/fonts/Metropolis-Black.otf') format('opentype');
+  }
+
+  @font-face{
+  font-family:'metropolis_elight';
+  src: url('https://unicus.live/fonts/Metropolis-ExtraLight.otf') format('opentype');
+  }
+
+
+  *{
+  	font-family: metropolis_regular, Arial, Helvetica, sans-serif !important;
+  }
+            @media screen and (max-width: 736px){ 
+                nav li{
+                    margin: 0 3px !important;
+                }
+                    
+            }
+
+            .short_courses{
+            	display: inline-block;
+            	padding: 4px;
+            }
+
+
+            @media screen and (max-width: 1440px) and (min-width: 960px){
+            	.short_courses{
+            		max-width: 24%
+            	}
+            }
+
+           @media screen and (max-width: 960px) and (min-width: 520px){
+            	.short_courses{
+            		max-width: 23%
+            	}
+            }
+
+
+
+            #sidebar nav a {
+			    -moz-transition: color 0.2s ease;
+			    -webkit-transition: color 0.2s ease;
+			    -ms-transition: color 0.2s ease;
+			    transition: color 0.2s ease;
+			    border: 0;
+			    color: rgba(255, 255, 255, 0.35);
+			    display: block;
+			    font-size: .9em;
+			    font-weight: bold;
+			    letter-spacing: 0.25em;
+			    line-height: 1.75;
+			    outline: 0;
+			    padding: 1.35em 0;
+			    position: relative;
+			    text-decoration: none;
+			    text-transform: uppercase;
+			    color: black;
+			    letter-spacing: 0;
+			    font-weight: 100;
+			    padding: 0;
+			}
+
+			#sidebar nav a:before {
+			    background: unset;
+			}
+
+
+
+			#sidebar nav a:after {
+			    background-image: unset;
+			    background-image: unset;
+			    background-image: unset;
+			    background-image: unset;
+			    -moz-transition: max-width 0.2s ease;
+			    /* -webkit-transition: max-width 0.2s ease; */
+			    -ms-transition: max-width 0.2s ease;
+			    /* transition: max-width 0.2s ease; */
+			    /* max-width: 0; */
+			    background-image: none;
+    			background-color: none;
+			}
+			#sidebar nav a:after {
+			    background-image: none;
+			    background-color: unset;
+			}
+			#sidebar nav a.active {
+			    color: #ffffff;
+			    padding: 0;
+			    height: calc( 100% + 2em );
+			    width: calc( 100% + 1em );
+			    margin-top: -1em;
+			    margin-left: -.5em;
+			    background-color: #16a660;
+			    padding: 1em .5em;
+			}
+
+			.features section {
+			    padding: 25px !important;
+/*			    border-top: solid 1px rgba(255, 255, 255, 0.15);
+			    position: relative !important;*/
+			    text-align: center !important;
+			}
+
+			.features p {
+			    margin: 0 0 0 0;
+			}
+
+			@media screen and (max-width: 1280px){
+				#sidebar nav {
+				    height: inherit;
+				    line-height: inherit;
+				    width: 100%;
+				    padding: 0 1em;
+				}
+
+				#sidebar {
+				    height: 3.5em;
+				    left: 0;
+				    line-height: 3.5em;
+				    overflow: hidden;
+				    padding: 0;
+				    text-align: center;
+				    top: 0;
+				    width: 100%;
+				    /*padding: 1em;*/
+				    overflow: auto;
+				    overflow-y: hidden;
+				}
+
+				#sidebar nav ul li {
+				    display: block;
+				     height: unset; 
+				     line-height: unset; 
+				    margin: 0 0 0 2em;
+				    padding: 1em .5em;
+				    /*height: 24px;*/
+				    border: 1px solid #189156;
+				    border-bottom: 0;
+				    border-top: 0;
+				    margin: 0 !important;
+				}
+
+				nav a{
+					font-weight: bold !important;
+				}
+
+
+				#intro p br {
+				    display: block;
+				}
+
+
+				.g-item {
+				    margin-bottom: 30px;
+				    padding: 6px;
+				    position: relative;
+				    background-color: white;
+				    overflow: hidden;
+				    -webkit-backface-visibility: hidden;
+				    backface-visibility: hidden;
+				}
+
+
+
+
+				}
+
+
+				#lightbox{
+					z-index: 10000000000000;
+				}
+
+        </style>
+	</head>
+	<body>
+
+
+<!-- -----------------------------menu section------------------------------------------ -->
+		<!-- Sidebar -->
+			<section id="sidebar" style="background-color: #018444;">
+				<div class="inner">
+					<img src="nimeche_logo.png" class="showonmobile" style=" height: 100%; width: auto; padding: 5px; ">
+					<nav>
+						<ul>
+							<li><a href="#intro" class="scrolly active">Welcome</a></li>
+							<li><a href="#one" class="scrolly">Executives</a></li>
+                            <li><a href="#two" class="scrolly">Resources</a></li>
+                            <li><a href="#three" class="scrolly">Courses</a></li>
+							<li><a href="#four" class="scrolly">Photos</a></li>
+							<li><a href="#five" class="scrolly">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+<!--/////////////////////////////////////menu section/////////////////////////////////////////// -->
+
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+<!-- -----------------------------Home / Welcome section------------------------------------------ -->
+<section id="intro" class="wrapper style1 fullscreen fade-up" style="background-image: url(bkgrd_1.jpg);background-size: cover;background-attachment: unset;background-position: center;height: 100vh;transition: 2s;">
+				<div class="inner" style="
+					    border: 1px solid;
+					    max-width: 600px;
+					    background-color: rgba(255, 255, 255, 0.6);
+					    border: 2px solid #018444;
+					    border-left: 0;
+					">
+					<center>
+						<img src="nimeche_logo.png">
+							<h1 style="line-height: 1em;font-size: 3.5em;color: black;">NiMechE<br>
+                                <span style="font-size: 14px;font-weight: normal;line-height: 14px;display: block;font-family: fantasy;">NIGERIAN INSTITUTE OF MECHANICAL ENGINEERS</span>
+                            </h1>
+                            
+                            <p style="   line-height: 1em;
+							    color: black;
+							    letter-spacing: -1px;
+							    font-size: 0.8em;
+							    white-space: normal;"><span style="display: inline-block;">(A division of the Nigeria Society of Engineers)</span><br><span>Petroluem Training Institute</span><br> PMB 20 Effurun, Delta State
+							</p>
+							</center>
+   
+							<ul class="actions">
+								<li><a href="#about" class="button scrolly" style="
+								    background-color: #018444;
+								    font-size: 14px;
+								    letter-spacing: 0;
+								    line-height: unset;
+								    height: unset;
+								    display: inline-block;
+								    padding: 15px;
+								">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+<!--/////////////////////////////////////Home / Welcome section/////////////////////////////////////////// -->
+
+<!-- -----------------------------About section------------------------------------------ -->
+
+					<section id="about" class="wrapper style3 fade-up" style="background-color: white; padding: 20px;color: black;">
+					    <div class="inner">
+					        <h2 style="
+					    color: black;
+					">About</h2>
+					        <section style="/*background-image: url(materials.jpg); background-size: cover;*/">
+					            <p>The Nigerian Institution of Mechanical Engineers (NIMechE) is the Mechanical Division of The Nigerian Society of Engineers (NSE).<br><br>
+
+					            The Institution has full standing authority as derived from the Articles of Association of The Nigerian Society of Engineers and is not a parallel body to the Nigerian Society of Engineers (NSE).<br><br>
+
+								Established in December 2002 at the Annual General Meeting (AGM) of the Mechanical Engineering Division of the NSE at Port Harcourt, it was unanimously agreed that the mechanical diision of the NSE be transformed into The Nigerian Institution of Mechanical Engineers under the able leadership of Engr. (Chief) Akintunde S. Zedomi, FNSE, FNIMechE and other elected officials to ensure the take-off to smooth running of the Institution.<br><br>
+
+								NIMechE is currently engaged in a tough battle towards restoring the rightful place of Mechanical Engineering in Nigeria.</p>
+					        </section>
+					        
+					        <section style="margin-bottom: 20px;">
+					            <h3 style="
+								    color: black;
+								">MISSION STATEMENT</h3>
+								<p style="padding-top: 10px;">To propagate the effective practice of Mechanical Engineering within Nigeria and ensure its entrenchment in our body polity</p>
+					        </section>
+
+
+					        <section style="margin-bottom: 20px;">
+					            <h3 style="
+								    color: black;
+								">VISION</h3>
+								<p style="padding-top: 10px;">To be the premier Institution for Professional Development, Knowledge Acquisition and Dissemination of Mechanical Engineering and Allied Disciplines</p>
+					        </section>
+					        		
+								</div>
+					         </section>
+
+<!--/////////////////////////////////////About section//////////////////////////////-->
+
+
+
+
+
+				<!-- One -->
+					<section id="one" class="wrapper style3 fade-up" style="background-color: #ffffff;color: black;">
+						<div class="inner">
+							<h2 style="color:black;">Current Excos of NiMechE PTI Chapter</h2>
+							<p></p>
+							<div class="features">
+
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/OGWAMENHLU_VICTO_A.jpeg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">OGWAMENHLU VICTOR .A</h3><p>President 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/albert_abraham_e.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Albert Abraham E.</h3><p>Vice President 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Modercai_Isaiah_E.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Modercai Isaiah E.</h3><p>Secretary General 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/ORUMWENSE_OSASERE.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">ORUMWENSE OSASERE</h3><p>Assistant Sec. Gen. 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Effiong_Effiong_Sunday.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Effiong Effiong Sunday</h3><p>Welfare Director 2018/2019</p></div>
+								</section>
+
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Nwachukwu_Chidinma.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Nwachukwu Chidinma</h3><p>Financial Secretary 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Akpojisheri_Itiveri_Gift.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Akpojisheri Itiveri Gift</h3><p>Sports Director 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/IREKPERE_IRIKEFE.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">IREKPERE IRIKEFE</h3><p>ICE Coordinator 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Fadoyeni_Segun.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Fadoyeni Segun</h3><p>P.R.O. 2018/2019</p></div>
+								</section>
+
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/PRO_2.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;"></h3><p>P.R.O. 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Anikwe_Collins.jpg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Anikwe Collins </h3><p>Treasurer 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Mrs_Adedayo_Onyinde.jpeg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Mrs Adedayo Onyinde</h3><p>Administrative Officer 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Dr_M_H_Sheidi.jpeg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Dr M.H Sheidi.jpeg</h3><p>Patron / H.O.D 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Engr_S_I_Ukwuaba.jpeg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Engr. S.I Ukwuaba</h3><p>Patron 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Engr_Nosa_Ogie.jpeg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Engr. Nosa Ogie</h3><p>Patron 2018/2019</p></div>
+								</section>
+
+								<section>
+									<div style="box-shadow: 0 0 4px #018444; padding: 19px;">
+									<img src="images/excos/Engr_Famous_J_AJOBORU.jpeg" style="height: 150px; width: 150px; border-radius: 50%;">
+								    <h3 style="color: black;">Engr Famous J AJOBORU</h3><p>Lecturer 2018/2019</p></div>
+								</section>
+
+
+
+
+							</div>
+						</div>
+					</section>
+		
+
+		
+
+<section id="two" class="wrapper style3 fade-up" style="background-color: #fab487;padding: 20px;color: black;">
+    <div class="inner">
+        <h2 style="
+    color: black;
+">Resource Materials</h2>
+        <section style="/*background-image: url(materials.jpg); background-size: cover;*/">
+             <h3 style="
+    color: black;
+">Engineering E-books</h3>
+            <p>Below are some recommended Mechanical Engineering e-books for NIMECHE P.T.I. students.<br><br>
+            	<i>No books available now, Please Check back later</i>
+            </p>
+        </section>
+        
+        <section>
+            <h3 style="
+    color: black;
+">Past Questions</h3>
+            <p>Below are some recommended Past Questionsr NIMECHE P.T.I. students.<br><br>
+            	<i>No past question available now, Please Check back later</i></p>
+        </section>
+        		<div>
+
+<h3 style="
+    color: black;
+">Reports and Articles</h3>
+                	<ul class="actions">
+                		To view articles/reports written by students/lecturers of NIMECHE P.T.I., Please click "Read Articles" below.
+								<br><br><li><a href="article.html" target="_blank" class="button scrolly" style="
+								    background-color: #018444;
+								    font-size: 14px;
+								    letter-spacing: 0;
+								    line-height: unset;
+								    height: unset;
+								    display: inline-block;
+								    padding: 15px;
+								">Read Articles</a></li>
+					</ul>
+    			</div>
+			</div>
+         </section>
+
+
+<section id="three" class="wrapper style3 fade-up" style="background-color: white; color: black;">
+<div class="inner">
+        <h2 style="color: black">Short Courses/Training</h2>
+            
+        	<div class="features" style="
+    padding: 4px;
+">   
+
+
+<i>No Short course available now.<br>Please Check back later</i>
+
+
+<!-- <div class="container short_courses" style="">
+	<div style="width: 100%;box-shadow: 0px 0px 9px #908787;padding: 4px;">
+        <img src="pic3.jpg" width="100%" height="130px" alt="">
+        <h3 style="color: #4d4d4d" align="center">Course Title</h3>
+        <p style="text-align: justify; text-justify: inter-word">Here would give a short detail about the course, the cost of training as well as the duration and the certification.</p>
+
+        <div style="
+    height: 40px;
+"><a href="#one" class="button scrolly" style="
+								    background-color: #018444;
+								    font-size: 12px;
+								    letter-spacing: 0;
+								    line-height: unset;
+								    height: unset;
+								    display: inline-block;
+								    padding: 5px;
+								    border-radius: 0px;
+								    float: right;
+				">Learn more</a></div>
+    </div>
+</div> -->
+
+
+
+
+    </div>
+
+            </div>    
+</section>
+
+
+
+<section id="four" class="wrapper style3 fade-up" style="background-color:#19053a; padding: 20px;color: black;">
+    <div class="row">
+
+<h2 style="
+    color: white;
+">Photo Gallery</h2>
+
+<div class="inner " style="width: 100%;">
+                            
+<ul id="content-slider" style="display: block; padding: 0px 0px 0%; opacity: 1; transition: all 0.6s ease 0s; width: 2800px; transform: translate3d(-700px, 0px, 0px); height: 130px;" class="lightSlider lsGrab lSSlide">
+
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/1.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/1.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/2.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/2.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/3.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/3.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/4.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/4.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/6.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/6.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/7.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/7.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/8.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/8.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/9.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/9.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/10.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/10.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/11.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/11.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/12.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/12.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/13.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/13.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+<li style="width: 340px; margin-right: 10px;">
+    <div class=""> 
+        <div class="g-item"> 
+            <img alt="Room" class="lazyimg" src="pictures/14.jpg" style="display: inline;">
+                <p onclick="" data-rel="lightbox" class="overlay" data-content="" href="pictures/14.jpg" title="" cont="" dist="" howfar=""> 
+                    <span style="font-size: 12px;">+</span> 
+
+                </p>  
+        </div> 
+    </div>
+</li>
+
+
+
+
+
+
+</ul>
+
+
+    </div> <!-- /.row -->
+</div>
+</section>		
+
+
+					<section id="five" class="wrapper style1 fade-up">
+						<div class="inner" style="background-color: white;">
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="field half first">
+											<label for="name" style="color: #4d4d4d;">Name</label>
+											<input type="text" name="name" id="name" style="border-color: black;">
+										</div>
+										<div class="field half">
+											<label for="email" style="color: #4d4d4d;">Email</label>
+											<input type="text" name="email" id="email" style="border-color: black;">
+										</div>
+										<div class="field">
+											<label for="message" style="color: #4d4d4d;">Message</label>
+											<textarea name="message" id="message" rows="5" style="border-color: black;"></textarea>
+										</div>
+										 
+							<ul class="actions">
+								<li>
+									<a href="#one" class="button scrolly" style="
+								    background-color: #4d4d4d;
+								    font-size: 14px;
+								    letter-spacing: 0;
+								    line-height: unset;
+								    height: unset;
+								    display: inline-block;
+								    padding: 15px;
+								">Send Message</a>
+								</li>
+							</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3 style="color: #4d4d4d;">Address</h3>
+											<span style="color: #4d4d4d;">Petroleum Training Institute, Effurun,<br>PMB 20 Effurun Delta State,<br>Nigeria.</span>
+										</li>
+										<li>
+											<h3 style="color: #4d4d4d;">Email</h3>
+											<a href="#" style="color: #4d4d4d;">nimecheptistudentschapter@gmail.com</a>
+										</li>
+										<li>
+											<h3 style="color: #4d4d4d;">Phone</h3>
+											<span style="color: #4d4d4d;">(+234) 00-0000-0000</span>
+										</li>
+										<li>
+											<h3 style="color: #4d4d4d;">Social</h3>
+											<ul class="icons" style="color: #4d4d4d;">
+												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+
+
+
+
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt" style="
+    margin-top: 1px;
+">
+				<div class="inner" align="center" style="background-color: white; padding: 15px;">
+					<ul class="menu" style="margin:0px;">
+						<li style="color: gray;">© NiMechE P.T.I. Chapter. All rights reserved.</li>
+						<li style="color: gray;">Website created as a training project by students of  <u><a href="https://unicus.live/campus"><span style="
+    color: #0a20cd;
+">u</span><span style="
+    color: #e40001;
+">n</span><span style="
+    color: #f98f03;
+">i</span><span style="
+    color: #0a20cd;
+">c</span><span style="
+    color: #2ca102;
+">u</span><span style="
+    color: #e40505;
+">s</span> <span style="color: black;">campus.</span></a></u></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			 <script src="assets/js/lightslider.min.js" ></script>
+			 <script src="assets/js/plugins.js" ></script>
+
+			<script type="text/javascript">
+				
+				bkgrd=1;
+				
+					setInterval(function(){
+						bkgrd++;
+						if (bkgrd > 4) bkgrd=1;
+						$("#intro").css("background-image","url(bkgrd_"+bkgrd+".jpg)");
+					},10000)
+				$(document).ready(function() {	
+
+					$("#content-slider").lightSlider({
+					  loop:true,
+					  keyPress:true,
+					  item:2,
+					  pause: 6000,
+					  speed:2000,
+					  auto:true,
+					  pauseOnHover: true,
+
+					});
+
+					$('#content-slider').css('opacity',"1");
+
+
+
+				})
+
+			</script>
+
+
+	</body>
+</html>
